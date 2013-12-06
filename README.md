@@ -1,18 +1,20 @@
-geojson2csv
+geojson2topojson
 ===========
 
-a node.js module for converting a geojson file to a csv file
+a node.js module for converting a geojson file to a topojson file
+
+**Installation:**
 
 ```bash
-npm install geojson2csv
+npm install geojson2topojson
 ```
 
-This module takes a geojson feature collection of points and converts it to a csv file.
+**Use:**
 
 ```javascript
-var geojson2csv = require('geojson2csv')
+var geojson2topojson = require('geojson2topojson')
 
-geojson2csv('/path/to/points.geojson', '/path/to/points.csv', function(err){
+geojson2topojson('/path/to/in.geojson', '/path/to/out.topojson', function(err){
   if(err) throw err
 })
 ```

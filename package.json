@@ -1,6 +1,6 @@
 {
   "name": "geojson2topojson",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "a module for converting a geojson file to a topojson file",
   "main": "index.js",
   "repository": {
